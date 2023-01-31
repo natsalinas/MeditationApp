@@ -9,7 +9,7 @@ class BasicApp(App):
     # root widget = parent widget
     # we only have the label as a widget 
     def build(self): 
-        label = Label(text="Hello World")
+        label = Label(text="Hello World \nThis is my first app.")
         return label 
 
 #instance of Basic App class
