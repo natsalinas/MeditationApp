@@ -10,7 +10,7 @@ class BasicApp(App):
     # we only have the label as a widget 
     def build(self): 
         Window.clearcolor = (0,191,255) #rgb value for color of app
-        label = Label(text="Hello World \nThis is my first app.")
+        label = Label(text="Hello World \nMy first app.")
         return label 
 
 #instance of Basic App class
